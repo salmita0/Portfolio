@@ -1,0 +1,82 @@
+/* .home {
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.368);
+}
+
+.home >img {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+} */
+
+.nav {
+    max-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 2px solid rgba(1, 21, 45, 0.822);
+    /* 0 c'est pour l'espacement en haut et en bas, et 1rem pour a gauche et a droite */
+
+}
+
+.nav>img {
+    max-height: 10vh;
+    border-color:rgba(119, 187, 242, 0);
+  }
+
+.nav >div {
+    display:flex;
+    gap: 1rem;
+    justify-content: right;
+}
+
+.nav a {
+    padding: 1rem;
+    border-radius: 20px;
+    max-height: 10rem;
+
+    display: flex;
+    justify-content: right;
+    background-color: rgba(95, 158, 160, 0.53);
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.836);
+}
+
+
+/* .nav {
+  max-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 2px solid gray;
+
+  0 c'est pour l'espacement en haut et en bas, et 1rem pour a gauche et a droite 
+}
+
+.nav>img {
+  max-height: 8vh;
+}
+
+.nav>div {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  padding: .5rem;
+  border-radius: 999999px;
+  min-width: 10rem;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: #5b5b5b;
+} */
