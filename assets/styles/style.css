@@ -9,7 +9,12 @@ body {
     text-align:justify;
 }
 
-header {background-color: rgb(255, 255, 255); position: fixed; width:92vw; z-index:1000}
+header {
+    background-color: rgb(255, 255, 255); 
+    position: fixed; 
+    width:92vw; 
+    z-index:1000
+}
 
 header >.navbar{ 
     display: flex;
@@ -22,6 +27,16 @@ header >.navbar{
     z-index: 1000;
 
     background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(52, 73, 120);
+}
+
+h2{
+    color: rgb(52, 117, 121);
+    font-family:cursive;
+    text-decoration: underline;
 }
 
 #accueil {
@@ -53,7 +68,7 @@ header >.navbar{
 }
 
 #competences {
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 #competences >div {
@@ -73,13 +88,17 @@ padding-bottom: 2rem;
 }
 
 #contact {
-    background-color: rgba(32, 32, 78, 0.4);
+    background: rgba(49, 92, 135, 0.219);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 5px;
+    
 }
 
 #contact >form {
     max-width: 400px;
     margin: auto;
-    
 }
 
 #contact .labels { /* label l'un à cote de l'autre */
