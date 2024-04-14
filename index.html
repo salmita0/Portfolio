@@ -6,14 +6,13 @@
 		<title>Portfolio - Salma TAQIL</title>
 		<link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+        <link rel="icon" href="assets/images/logo_ST.png" sizes="192x192"/> <!--Icon du document-->
 		<link rel="stylesheet" href="assets/styles/style.css">
 	</head>
 	<body>
         <header class="navbar">
             <nav>
-                <ul>
-                    <li><strong>Salma Taqil</strong></li>
-                </ul>
+                <img src="assets/images/logo_ST.png" width="80" alt="logo">
                 <ul>
                     <li><a href="#accueil">Accueil</a></li>
                     <li><a href="#about">À propos</a></li>
@@ -88,19 +87,20 @@
                         <p>Communication</p>
                         <progress value="80" max="100" /></progress>
                     </div>
-                </div>
+                </div>                                                                       
             </section>
             <section id="projet">
                 <h2>Projet</h2>
                 <div class="grid">
                     <div>
-                        <iframe src="https://salmita0.github.io/harry-potter/" width="600vw" height="300"  frameborder="0"></iframe>
+                        <iframe src="https://salmita0.github.io/harry-potter/" width="550vw" height="450"  frameborder="0"></iframe>
                     </div>
                     <div class="text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nulla, fuga non eos et natus quibusdam cupiditate laborum
-                        minus aliquid ipsa doloribus, tenetur dolores delectus cumque 
-                        quidem quo? Placeat, doloremque suscipit?</p>
+                        <p>Je vous présente mon premier projet! <br>
+                            En formation chez "La Toile", on a fait notre premier site au bout d'apprendre le langage HTML et le CSS. <br>
+                            Dans ce site, j'ai voulu présenter la série des films de Harry Potter. 
+                            Ou, je rapprends chaque film en résumant l'histoire et ses personnages. <br>
+                        Enjoy !</p>
                     </div>
                 </div>
             </section>
@@ -110,18 +110,20 @@
                 <h2>Mes contacter</h2>
             <form>
                 <fieldset>
-                    <label for="first_name">Prénom
-                    <input
-                    name="first_name"
-                    placeholder="Abigaïl"
-                    autocomplete="given-name"/>
-                    </label>
-                    <label for="name">Nom
-                    <input
-                    name="name"
-                    placeholder="Pit"
-                    autocomplete="given-name"/>
-                    </label>
+                    <div class="labels">
+                        <label for="first_name">Prénom
+                        <input
+                        name="first_name"
+                        placeholder="Abigaïl"
+                        autocomplete="given-name"/>
+                        </label>
+                        <label for="name">Nom
+                        <input
+                        name="name"
+                        placeholder="Pit"
+                        autocomplete="given-name"/>
+                        </label>
+                    </div>
                     <label for="email">Email
                     <input
                     type="email"
